@@ -1,8 +1,54 @@
-# Compiled class file
-*.class
+# Operating System Files
+*.DS_Store
+Thumbs.db
+*.sw?
+.#*
+*#
+*~
+*.sublime-*
+.git/
+
+# Build Artifacts
+.gradle/
+build/
+target/
+bin/
+dependency-reduced-pom.xml
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# Intellij
+*.ipr
+*.iml
+*.iws
+.idea/
+
+# Maven
+target/
+
+# Gradle
+build
+.gradle
 
 # Log file
 *.log
+log/
+
+# Folder config file
+Desktop.ini
+
+# Package Files #
+/target
+/.settings
+/.classpath
+/.project
+/.idea
+
+# Compiled class file
+*.class
 
 # BlueJ files
 *.ctxt
