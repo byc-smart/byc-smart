@@ -14,6 +14,12 @@
     <artifactId>byc-boot</artifactId>
     <version>0.0.2</version>
 
+    <properties>
+        <java.version>1.8</java.version>
+        <skip.test>true</skip.test>
+        <base.version>0.0.1</base.version>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -76,10 +82,15 @@
             <artifactId>mysql-connector-java</artifactId>
             <version>8.0.25</version>
         </dependency>
-
         <dependency>
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>io.github.byc-smart</groupId>
+            <artifactId>base-service-mybatis</artifactId>
+            <version>${base.version}</version>
         </dependency>
     </dependencies>
 

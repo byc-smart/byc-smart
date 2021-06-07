@@ -402,11 +402,18 @@
 <!--                <version>1.6.2</version>-->
 <!--            </dependency>-->
 
+
+            <dependency>
+                <groupId>io.github.byc-smart</groupId>
+                <artifactId>base-dao</artifactId>
+                <version>${base.version}</version>
+            </dependency>
             <dependency>
                 <groupId>io.github.byc-smart</groupId>
                 <artifactId>base-core</artifactId>
                 <version>${base.version}</version>
             </dependency>
+
         </dependencies>
     </dependencyManagement>
 
